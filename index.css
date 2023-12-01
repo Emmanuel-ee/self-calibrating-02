@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.app {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.output {
+    width: 3rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffd6e1;
+    margin: 2px;
+    font-size: 2rem;
+}
+
+.display-buttons {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    box-shadow: 0px -2px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.pads {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.pad {
+    width: 6rem;
+    height: 6rem;
+    margin: 3px;
+    cursor: pointer;
+    border-radius: 1rem;
+    box-shadow: 0px -2px 16px rgba(0, 0, 0, 0.7);
+    transition: box-shadow 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+.pad:active {
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.7);
+}
+
+.yellow {
+    background-color: #ffeb3b;
+}
+
+.ash {
+    background-color: #b2beb5;
+}
+
+button {
+    width: 9rem;
+    height: 5rem;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-left: 70%;
+    box-shadow: 0px -2px 16px rgba(0, 0, 0, 0.2);
+
+}
